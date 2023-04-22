@@ -1,0 +1,42 @@
+ 
+
+### docker ps
+*  실행중인 컨테이너 출력
+### docker ps -a
+* 모든 컨테이너 출력
+### docker ps --format 'table{{.Name}}\ttable{{.Image}}'
+* 실행중인 컨테이너 포맷형식으로 출력
+
+### docker create <이미지 이름>
+
+### docker start  <컨테이너 id | 컨테이너 이름>
+- `-a`
+  * 도커 컨테이너가 실행 될 때, 컨테이너가 출력하는 문구를 출력해줌
+
+### docker run <이미지 이름>
+
+### doker stop
+* 그동안 하던 작업들을 완료하고 중지
+*  Gracefull 하다고 표현
+* 그동안 하던 작업들을 마무리하는 시간을 Grace period 라고 함
+
+### docker kill
+* 바로 중지
+
+### docker rm <컨테이너 id>
+* 실행중인 컨테이너 삭제
+
+### docker rm 'docker ps -a -q'
+* 모든 컨테이너 삭제
+
+### docker rmi <이미지 id>
+* 도커 이미지 삭제
+
+### docker system prune
+* 도커 이미지, 컨테이너, 네트워크 전체 삭제
+* 실행중인 컨테이너는 정리하지 않음
+
+### docker exec <컨테이너 id> <명령어>
+* 실행중인 도커 컨테이너에 명령어 날리기
+
+
