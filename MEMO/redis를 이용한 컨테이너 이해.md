@@ -1,9 +1,9 @@
 # docker exec -it <컨테이너 id> <명령어>
 
-```text
+```console
 docker run redis
 ```
-```text
+```console
 docker exec -it <컨테이너 id> redis-cli
 ```
 ### -it
@@ -17,11 +17,11 @@ docker exec 하고 나면 host terminal 로 돌아오는데 이를 방지
 
 # docker exec -it <컨테이너 id> <sh | bash | zsh | powershell>
 
-```text
+```console
 docker run alpine ping localhost 
 ```
 
-```text
+```console
 docker exec -it <컨테이너 id> sh
 ```
 
