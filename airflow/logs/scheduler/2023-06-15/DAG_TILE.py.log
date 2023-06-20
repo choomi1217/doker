@@ -1,0 +1,294 @@
+[2023-06-15T23:41:42.083+0000] {processor.py:157} INFO - Started process (PID=165) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:41:42.084+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:41:42.085+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:41:42.085+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:41:42.101+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:41:42.099+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:41:42.101+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:41:42.132+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.051 seconds
+[2023-06-15T23:42:12.305+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:12.307+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:42:12.307+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:42:12.307+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:12.313+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:42:12.312+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:42:12.313+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:12.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.039 seconds
+[2023-06-15T23:42:42.610+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:42.612+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:42:42.613+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:42:42.612+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:42.618+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:42:42.617+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:42:42.619+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:42:42.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.042 seconds
+[2023-06-15T23:43:12.921+0000] {processor.py:157} INFO - Started process (PID=182) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:12.922+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:43:12.923+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:43:12.923+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:12.928+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:43:12.927+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:43:12.929+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:12.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.033 seconds
+[2023-06-15T23:43:43.147+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:43.148+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:43:43.149+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:43:43.148+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:43.153+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:43:43.152+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:43:43.153+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:43:43.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.038 seconds
+[2023-06-15T23:44:13.428+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:13.429+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:44:13.430+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:44:13.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:13.435+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:44:13.434+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:44:13.435+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:13.458+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.032 seconds
+[2023-06-15T23:44:43.742+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:43.744+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:44:43.747+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:44:43.747+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:43.756+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:44:43.754+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:44:43.757+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:44:43.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.048 seconds
+[2023-06-15T23:45:14.081+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:14.083+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:45:14.084+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:45:14.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:14.090+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:45:14.088+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:45:14.091+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:14.120+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.041 seconds
+[2023-06-15T23:45:44.391+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:44.392+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:45:44.393+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:45:44.393+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:44.399+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:45:44.397+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:45:44.399+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:45:44.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.040 seconds
+[2023-06-15T23:46:14.712+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:14.713+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:46:14.714+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:46:14.714+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:14.719+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:46:14.718+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:46:14.720+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:14.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.042 seconds
+[2023-06-15T23:46:45.127+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:45.129+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:46:45.130+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:46:45.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:45.139+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:46:45.137+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:46:45.139+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:46:45.166+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.045 seconds
+[2023-06-15T23:47:15.523+0000] {processor.py:157} INFO - Started process (PID=233) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:15.525+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:47:15.526+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:47:15.526+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:15.533+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:47:15.531+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:47:15.533+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:15.561+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.042 seconds
+[2023-06-15T23:47:46.011+0000] {processor.py:157} INFO - Started process (PID=243) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:46.012+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:47:46.013+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:47:46.013+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:46.020+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:47:46.018+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:47:46.020+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:47:46.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.046 seconds
+[2023-06-15T23:48:16.294+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:16.296+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:48:16.297+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:48:16.297+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:16.305+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:48:16.303+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:48:16.306+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:16.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.055 seconds
+[2023-06-15T23:48:46.645+0000] {processor.py:157} INFO - Started process (PID=263) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:46.646+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:48:46.647+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:48:46.647+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:46.652+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:48:46.651+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:48:46.653+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:48:46.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.038 seconds
+[2023-06-15T23:49:17.076+0000] {processor.py:157} INFO - Started process (PID=273) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:17.079+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:49:17.080+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:49:17.080+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:17.089+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:49:17.087+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:49:17.090+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:17.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.047 seconds
+[2023-06-15T23:49:47.586+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:47.589+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:49:47.591+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:49:47.590+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:47.598+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:49:47.597+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:49:47.599+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:49:47.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.047 seconds
+[2023-06-15T23:50:18.099+0000] {processor.py:157} INFO - Started process (PID=293) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:18.100+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:50:18.101+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:50:18.101+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:18.107+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:50:18.106+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:50:18.108+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:18.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.041 seconds
+[2023-06-15T23:50:48.517+0000] {processor.py:157} INFO - Started process (PID=303) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:48.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:50:48.520+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:50:48.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:48.525+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:50:48.524+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:50:48.526+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:50:48.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.035 seconds
+[2023-06-15T23:51:18.960+0000] {processor.py:157} INFO - Started process (PID=313) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:18.963+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:51:18.964+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:51:18.964+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:18.973+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:51:18.971+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:51:18.974+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:19.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.051 seconds
+[2023-06-15T23:51:49.392+0000] {processor.py:157} INFO - Started process (PID=323) to work on /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:49.394+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/DAG_TILE.py for tasks to queue
+[2023-06-15T23:51:49.395+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:51:49.395+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:49.403+0000] {logging_mixin.py:149} INFO - [2023-06-15T23:51:49.401+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/DAG_TILE.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/DAG_TILE.py", line 6, in <module>
+    from airflow.providers.postgres.hooks.postgres import PostgresHook
+ModuleNotFoundError: No module named 'airflow.providers.postgres'
+[2023-06-15T23:51:49.403+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/DAG_TILE.py
+[2023-06-15T23:51:49.430+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/DAG_TILE.py took 0.043 seconds

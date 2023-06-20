@@ -7,8 +7,8 @@ services:
     container_name: airflow-database
     image: postgres:13
     environment:
-      - POSTGRES_USER=
-      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=1234
     volumes:
       - ./data:/var/lib/postgresql/data
     restart: always
@@ -43,7 +43,9 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
-      - ./share_folder:/opt/airflow/share_folder
+      - type: volume
+        source: shared_data
+        target: /opt/airflow/share_folder
       - ./tiles:/opt/airflow/tiles
     command: airflow scheduler
     restart: always
@@ -62,7 +64,9 @@ services:
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
-      - ./share_folder:/opt/airflow/share_folder
+      - type: volume
+        source: shared_data
+        target: /opt/airflow/share_folder
       - ./tiles:/opt/airflow/tiles
     command: airflow webserver
     ports:
@@ -71,16 +75,17 @@ services:
     networks:
       - airflow
   gdal:
-    image: osgeo/gdal:ubuntu-small-lates
+    image: osgeo/gdal:ubuntu-small-latest
     build:
       context: .
       dockerfile: Dockerfileback
     volumes:
       - ./gdal:/gdal_data
-     # - ./app:/app
-    #command: [ "pip", "install", "--no-cache-dir", "-r", "/app/requirements.txt" ]
     networks:
       - airflow
-
-
-
+volumes:
+  shared_data:
+    driver_opts:
+      type: "nfs"
+      o: "addr=192.168.0.63,nolock,soft,rw"
+      device: ":/Users/ymcho/dev/doker/airflow/share_folder"
