@@ -13,12 +13,12 @@ RUN pip install pandas
 #RUN pip install GDAL > 실패
 
 # Conda를 설치합니다.
-#RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
+# RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh && \
 #    bash ~/miniconda.sh -b -p $HOME/miniconda && \
 #    rm ~/miniconda.sh
 
 # Conda를 PATH에 추가합니다.
-#ENV PATH /root/miniconda/bin:$PATH
+# ENV PATH /root/miniconda/bin:$PATH
 
 # 추가적으로 필요한 Conda 패키지를 설치합니다.
 # RUN conda install -y your-package=your-version
