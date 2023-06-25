@@ -82,3 +82,11 @@ airflow/data/*
 airflow/data/**
 airflow/data/**/*
 airflow/data/**/**/*
+
+# node.js
+node_modules/
+npm-debug.log
+**/node_modules/
+
+# doker
+doker.iml
